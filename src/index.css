@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #000;
+}
+/* Navbar section */
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff !important;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.navbar-nav {
+  margin-right: 8rem;
+}
+.navbar-nav .nav-link {
+  margin-right: 1rem;
+  color: #fff !important;
+
+  text-decoration: none;
+}
+
+.nav_img {
+  width: 100%;
+  height: 60%;
+}
+.nav_img img {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 70%;
+  opacity: 0.2;
+}
+.heading {
+  margin-top: -45rem;
+}
+
+.heading h2 {
+  margin: 0px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
+  margin-top: -40rem;
+}
+.heading h1 {
+  margin: 0px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 3.4rem;
+  text-transform: capitalize;
+  font-style: bold;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+.heading span {
+  color: red;
+}
+.name {
+  font-size: 1rem;
+  color: #c2c2c2;
+  text-align: center;
+}
+.heading_btns {
+  margin-top: 2%;
+  margin-left: 45%;
+}
+.btn {
+  text-transform: capitalize;
+}
+/* features section */
+.featuresNav {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: -15rem;
+  margin-bottom: -15rem;
+  padding-top: 2rem;
+}
+.featuresNav h2 {
+  margin-top: 10rem;
+  color: #fff;
+  font-size: 2rem;
+}
+.feat {
+  width: 15rem;
+  height: 30rem;
+  margin: 2rem;
+  display: inline-block;
+  position: relative;
+  border-radius: 1rem;
+  transition: 0.4s ease-in-out;
+  overflow: hidden;
+}
+.feat_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.img1 {
+  width: 100%;
+  height: 70%;
+}
+.img1:hover {
+  border: 1px solid white;
+}
+.img1 img {
+  padding: 15px;
+  margin-top: 40px;
+  width: 100%;
+  height: 50%;
+}
+.text {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+
+  flex-direction: column;
+}
+.text h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.text p {
+  margin: 0;
+  color: #fff;
+  font-size: 0.9rem;
+  display: block;
+  max-width: 80%;
+  margin-top: 2rem;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.text p:hover {
+  color: #fff;
+}
+/* Offer section */
+.offer_img {
+  width: 100%;
+  height: 50%;
+}
+
+.offer {
+  width: 100%;
+  height: 768px;
+  /* position: relative; */
+  padding-top: 3rem;
+  display: block;
+  justify-content: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background: transparent;
+  background-size: cover;
+}
+.offer_img img {
+  margin-top: 10px;
+  width: 100%;
+  opacity: 0.3;
+  background-size: cover;
+}
+
+.offer_heading {
+  margin-top: -30rem;
+  margin: 2rem;
+  position: relative;
+  border-radius: 1rem;
+  transition: 0.4s ease-in-out;
+  background: transparent;
+  text-transform: capitalize;
+}
+.offer_heading h1 {
+  margin-top: -40rem;
+  background-position: center;
+  font-family: "STIX Two Text", serif;
+  font-size: 3rem;
+  background-color: transparent;
+  color: #fff;
+}
+.offer_heading span {
+  background: transparent;
+  font-family: "Oswald", sans-serif;
+  color: red;
+}
+.offer_btn {
+  background: transparent;
+}
+.para_offer {
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+}
+/* about section */
+.about {
+  margin-top: -45rem;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+  padding: 50px 5% 0px 5%;
+}
+.about_img {
+  width: 50%;
+}
+.about_img img {
+  width: 40rem;
+  border-radius: 4rem;
+}
+.about_text {
+  width: 45%;
+  margin-top: 3rem;
+  color: #fff;
+}
+.about_text p {
+  width: 80%;
+  color: #fff;
+  text-align: center;
+  margin-left: 3rem;
+  font-size: 0.9rem;
+  padding: 0.9rem;
+}
+.about_text h1 {
+  font-family: "STIX Two Text", serif;
+  font-size: 3rem;
+  color: #fff;
+  margin: 0px;
+  font-weight: 500;
+  padding: 0px;
+}
+.nav-link {
+  text-decoration: none;
+  /* background-color: powderblue; */
+  color: #e1e6ee;
+}
+.about_text button {
+  margin-top: 1rem;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: none;
+  color: #fff;
+  outline: none;
+  background-color: #ff1414;
+}
+.about_text button:hover {
+  box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+  background-color: rgb(66, 2, 2);
+  transition: all ease 0.3s;
+  color: #e1e6ee;
+}
+.form {
+  width: 50rem;
+  margin-left: 15rem;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-group {
+  color: #fff;
+  margin: 0.5rem;
+}
+.btn {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 414px) {
+  .heading {
+    margin-top: 30rem;
+  }
+  .heading_btns {
+    margin-left: 9rem;
+  }
+  .featuresNav {
+    margin-top: -15rem;
+    margin-bottom: -25rem;
+  }
+
+  .offer_heading {
+    top: 20%;
+  }
+  .offer_btn {
+    margin-top: 10rem;
+  }
+  .offer_heading h1 {
+    font-size: 2rem;
+  }
+  .feat {
+    left: 10%;
+    text-align: center;
+  }
+
+  .about_img img {
+    position: relative;
+    width: 21rem;
+    height: 30rem;
+  }
+  .about_text {
+    width: 100%;
+    margin-top: 32rem;
+    margin-left: -40rem;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 1140px) {
+  .heading {
+    margin-top: 25rem;
+  }
+  .featuresNav {
+    margin-top: -15rem;
+    margin-bottom: -25rem;
+  }
+  .featuresNav h2 {
+    margin-top: -5rem;
+  }
+
+  .offer_heading {
+    margin-top: 15rem;
+  }
+  .offer_heading h1 {
+    font-size: 2rem;
+  }
+  .feat {
+    left: 10%;
+    text-align: center;
+  }
+  .about {
+    height: 38rem;
+  }
+
+  .about_img img {
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+  }
+  .form {
+    width: 100%;
+    margin-top: 22rem;
+    position: relative;
+    margin-left: 0rem;
+  }
+}
